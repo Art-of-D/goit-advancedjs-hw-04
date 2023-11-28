@@ -5,8 +5,9 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
+@import url('./search.css');
+@import url('./visually-hidden');
+@import url('./gallery.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
