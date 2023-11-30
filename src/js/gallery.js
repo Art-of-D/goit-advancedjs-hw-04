@@ -1,6 +1,3 @@
-import SimpleLightbox from "simplelightbox";
-import "simplelightbox/dist/simple-lightbox.min.css";
-
 const gallery = document.querySelector('.gallery');
 
 export function showGallery(galleryItems){
@@ -33,13 +30,6 @@ export function showGallery(galleryItems){
         .join("");
 
     gallery.insertAdjacentHTML("beforeend", imgsMarkup);
-
-    //Zoom images by click
-    let zoomedImg = new SimpleLightbox('.gallery__link', {
-            captionSelector: '.gallery__image',
-            captionsData:'alt',
-            captionDelay: 250,
-    });
 }
 
 export function resetGallery() {
